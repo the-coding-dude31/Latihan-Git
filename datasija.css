@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    box-shadow: 3px 2px 10px #000000;
+}
+.navin {
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    margin-left: 25px;
+    margin: 8px;
+}
+
+h4 {
+    margin-right: 10px;
+}
+
+.container-box {
+   width: auto;
+   height: auto;
+}
+
+.flex-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 123, 255);
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.nama {
+    width: 100px;
+}
+
+.container2 {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    box-shadow: 3px 2px 10px #000000;
+}
+
+.container2 .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.igambar {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.igambar:hover {
+    transform: scale(2, 2);
+    transition: all 1s ease-in-out;
+}
+
+.tulis, .tulis2 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}

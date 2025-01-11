@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    box-shadow: 3px 2px 10px #000000;
+}
+
+.navlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    background-color: rgb(148, 50, 50);
+    border-radius: 10px;
+}
+
+.navlog, .navin {
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button:hover {
+    box-shadow: inset 3px 3px 10px  #000000;
+}
+
+.navin:hover {
+    text-decoration: underline 1.5px;
+    color: blue;
+    cursor: pointer;        
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    margin-left: 25px;
+    margin: 8px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.penjelasan {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+}
+
+.container5 {
+    width: 110px;
+    height: 50px;
+    background-color: rgb(148, 50, 50);
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.peralihan {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.container5:hover {
+    box-shadow: inset 3px 3px 10px  #000000;
+}
+
+.peralihan:hover {
+    text-decoration: underline 1.5px;
+}
+
+.container5, .peralihan {
+    display: none;
+}
+
+.judul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#setelahmasuk {
+    display: none;
+}
+
+ul {
+    float: left;
+    line-height: 10px;
+}
+
+h4 {
+    display: none;
+    margin-right: 10px
+}
+
+.gambarpenjelasan {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar5 {
+    width: 442px;
+    height: 442px;
+}
+
+.container2 {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    box-shadow: 3px 2px 10px #000000;
+}
+
+.container2 .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+
+.igambar {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.igambar:hover {
+    transform: scale(2, 2);
+    transition: all 1s ease-in-out;
+}
+
+.tulis, .tulis2 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#loginhilang {
+    display: none;
+}
+
+.container4 {
+    margin-left: 35%;
+    margin-top: 100px;
+    background-color: white;
+    width: 30%;
+    height: 350px;
+    box-shadow: 2px 2px 10px;
+    padding: 25px;
+}
+
+.Kata {
+    text-align: center;
+}
+
+.form-group, .form-group1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#nama, #passwd {
+    height: 30px;
+}
+
+#nama:focus {
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+#passwd:focus {
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.tekanmasuk, .tulismasuk {
+    margin-top: 30px;
+    width: 55px;
+    height: 35px;
+}
+
+.tekanmasuk {
+    background-color: rgb(164, 35, 35);
+    border-radius: 10px 10px;
+}
+
+.tulismasuk {
+    text-decoration: none;
+    color: white;
+}
+
+.tekanmasuk:hover {
+    box-shadow: inset 2px 2px 10px;
+}
+
+.tulismasuk:hover {
+    text-decoration: underline 1px  ;
+    color: blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container1 {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .penjelasan {
+        flex-direction: column;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .gambarpenjelasan, .gambar5 {
+        margin-left: -2px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .gambar5 {
+        width: 282px;
+        height: 242px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container4 {
+        width: auto;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .form-group, .form-group1 {
+        width: 100%;;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    input{
+        border: 1.5px solid black;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container5{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h4{
+        font-size: 14px;
+    }
+}
