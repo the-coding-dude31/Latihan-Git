@@ -11,6 +11,7 @@ function webshow() {
     document.querySelector(".semua").style.display = "none";
     document.getElementById("loginhilang").style.display = "block";
     document.getElementById("warna").style.backgroundColor = "gray";
+    document.getElementById("warna").style.margin = "20px";
 }
 
 ;function validasi() {
