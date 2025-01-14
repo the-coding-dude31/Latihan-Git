@@ -14,7 +14,7 @@ function webshow() {
     document.getElementById("warna").style.margin = "20px";
 }
 
-;function validasi() {
+function validasi() {
     let username = document.getElementById("nama");
     let password = document.getElementById("passwd");
     let passwd = 12345678;
